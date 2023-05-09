@@ -11,6 +11,13 @@
     ],
     "action": {
       "default_popup": "fruit.html"
-    }
+    },
+  
+  "icons": {"16": "logo-16px.png",
+            "48": "logo-48px.png",
+            "128": "logo-128px.png"
+
+  }
+  
   }
   
