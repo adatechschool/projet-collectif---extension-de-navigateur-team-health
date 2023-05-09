@@ -1,11 +1,11 @@
 .fruit-data {
-  width: 150px;
+  /* width: 150px; */
   /* height: 7em; */
   left: auto;
   background-color: rgb(251, 251, 252);
   border: 3px solid #10120d;
   border-radius:40px ;
-  padding: 15px;
+  padding: 1em;
   line-height: 12px !important;
   z-index: 100;
   /* overflow:auto; */
