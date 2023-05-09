@@ -1,12 +1,17 @@
-.FruitData {
-  width: 200px;
-  height: 7em;
+.fruit-data {
+  width: 150px;
+  /* height: 7em; */
   left: auto;
-  background-color: pink;
-  border: 3px solid #73AD21;
+  background-color: rgb(251, 251, 252);
+  border: 3px solid #10120d;
+  border-radius:40px ;
+  padding: 15px;
+  line-height: 12px !important;
   z-index: 100;
-  overflow:scroll;
+  /* overflow:auto; */
+  font-family: 'Open Sans', sans-serif;
   font-size:small;
   font-weight: semi-bold;
+  color: black;
 }
 
