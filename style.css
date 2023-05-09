@@ -1,18 +1,12 @@
-#Fruit{
-  position: relative;
-}
 .FruitData {
   width: 200px;
   height: 7em;
+  left: auto;
   background-color: pink;
-  position: absolute;
   border: 3px solid #73AD21;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   z-index: 100;
   overflow:scroll;
   font-size:small;
   font-weight: semi-bold;
-
 }
+
