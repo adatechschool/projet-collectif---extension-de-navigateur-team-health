@@ -1,4 +1,4 @@
-const API_KEY = "BlTQnbqdr3mjHb0gOvKxYDUlEPzrqUaOTeqOZInr"; // enlever
+const API_KEY = "BlTQnbqdr3mjHb0gOvKxYDUlEPzrqUaOTeqOZInr"; //Not secure yet
 const isFoodGood = (food) => {
   // Check if the food item is low in added sugars and unhealthy fats
   if (food['fat_saturated_g'] > 5 || food['sugar_g'] / food['serving_size_g'] > 0.2) {

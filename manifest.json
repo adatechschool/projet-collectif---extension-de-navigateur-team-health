@@ -1,19 +1,25 @@
 {
-    "name": "MyFruit Extension",
-    "version": "1.0",
-    "manifest_version": 3,
-    "content_scripts": [
-      {
-        "matches": ["<all_urls>"],
-        "css":["style.css"],
-        "js": ["fruit.js"]
-      }
-    ],
-  "icons": {"16": "logo-16px.png",
-            "48": "logo-48px.png",
-            "128": "logo-128px.png"
-
+  "name": "MyFruit Extension",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": ["style.css"],
+      "js": ["fruit.js"]
+    }
+  ],
+  "icons": {
+    "16": "logo-16px.png",
+    "48": "logo-48px.png",
+    "128": "logo-128px.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "logo-16px.png",
+      "24": "logo-48px.png",
+      "32": "logo-128px.png"
+    },
+    "default_title": "WhatsInMyFood"
   }
-  
-  }
-  
+}
